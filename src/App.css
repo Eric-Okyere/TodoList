@@ -1,0 +1,197 @@
+body {
+  color: black !important;
+  background-color: blue;
+  
+  
+}
+
+td{
+  color: white !important;
+ 
+width: 37vh;
+border: 1px solid white;
+
+}
+
+
+.edit{
+  background-color: rgb(0, 153, 255) !important;
+}
+
+.modal{
+  background-color: rgb(0, 153, 255) !important;
+}
+
+.tablemain{
+  display: flex !important;
+}
+
+table{
+  color: white !important;
+}
+
+
+
+button{
+  margin: 5px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+.main{
+  
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+font-size: large;
+}
+
+.col2{
+display: flex;
+flex-wrap:wrap;
+}
+
+.cont{
+margin: 5px;
+background-color: white;
+background-color: black;
+border: 2px solid lightblue;
+box-shadow:  5px 5px rgb(0, 110, 255);
+width: 15rem;
+}
+h3{
+  color: white;
+  margin-right: 10px;
+ position: relative;
+ font-size: larger;
+ font-weight: bold;
+ left: 10px;
+ top: 2px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.col1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.but{
+  margin: 5px;
+  width: 8vh;
+  top: 5vh;
+  position: relative;
+}
+.but1{
+  width: 8vh;
+  position: relative;
+  left: 18vh;
+  top: -3vh;
+}
+
+
+
+.modacont{
+  background-color: black !important;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+.model2{
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.model{
+  background-color: rgb(0, 102, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.editBut{
+  background-color: black;
+  
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgb(0, 102, 255) !important;
+}
+
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--bs-navbar-color);
+  background-color: transparent;
+ border: 1px solid black !important; 
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+
+.btn-outline-success{
+  color: black;
+  border: 1px solid black !important;
+}
+.navbar-brand{
+  color: white;
+}
+
+.record{
+ position: relative;
+ left: 10vh;
+}
+.hr{
+  position: relative;
+  left: 10vh;
+}
+
+.mainform{
+  position: relative;
+  left: 1vh;
+}
+
+.dark-mode{
+  background-color: black;
+}
+.dark-mode label{
+ color: green;
+}
+.dark-mode h1{
+  color: green;
+}
+.dark-mode .todo{
+ color: black;
+}
+
+.subdiv{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.container{
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 100vh;
+}
